@@ -7,16 +7,7 @@ import Projetos from './pages/projetos';
 import Home from './pages/home';
 import Footer from './components/footer'
 import Sidebar from './components/sidebar';
-
 import './App.css';
-
-function Pagina({ titulo }) {
-  return (
-    <div className="pagina">
-      <h2>{titulo}</h2>
-    </div>
-  );
-}
 
 function App() {
   return (
