@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/GCQUFSC/static/css/main.323c587f.css",
-    "main.js": "/GCQUFSC/static/js/main.c286e2a1.js",
+    "main.js": "/GCQUFSC/static/js/main.989be8c3.js",
     "static/js/453.1904678a.chunk.js": "/GCQUFSC/static/js/453.1904678a.chunk.js",
     "static/media/logogcq2.png": "/GCQUFSC/static/media/logogcq2.6686e7c0f8303da1c75c.png",
     "index.html": "/GCQUFSC/index.html",
     "main.323c587f.css.map": "/GCQUFSC/static/css/main.323c587f.css.map",
-    "main.c286e2a1.js.map": "/GCQUFSC/static/js/main.c286e2a1.js.map",
+    "main.989be8c3.js.map": "/GCQUFSC/static/js/main.989be8c3.js.map",
     "453.1904678a.chunk.js.map": "/GCQUFSC/static/js/453.1904678a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.323c587f.css",
-    "static/js/main.c286e2a1.js"
+    "static/js/main.989be8c3.js"
   ]
 }
