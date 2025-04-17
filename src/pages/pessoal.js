@@ -1,12 +1,13 @@
 import React from 'react';
 import '../App.css';
+import MiguelEstivaletPinto from '../FotosPessoal/MiguelEstivaletPinto.jpg';
 
 const membros = [
   {
-    nome: "AAAAA",
-    funcao: "Doutoranda",
-    curso: "ASDADSASD",
-    foto: "https://via.placeholder.com/150"
+    nome: "Miguel Estivalet Pinto",
+    funcao: "Graduando",
+    curso: "Ciência da Computação",
+    foto: MiguelEstivaletPinto
   },
   {
     nome: "ASDASDASD",

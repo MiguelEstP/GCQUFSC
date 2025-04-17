@@ -22,8 +22,9 @@ body {
 }
 
 .sidebar img {
-  width: 150px;
-  margin-bottom: 0px;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .sidebarList {

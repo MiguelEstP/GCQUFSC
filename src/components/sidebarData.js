@@ -2,13 +2,13 @@ import React from 'react';
 
 export const sidebarData = [
     {
-        title: 'Home',
-        link: '/home'
-      },  
+    title: 'Home',
+    link: '/GCQUFSC/'
+    }, 
     {
     title: 'Projetos',
     link: '/projetos'
-  },
+    }, 
   {
     title: 'Artigos',
     link: '/artigos'

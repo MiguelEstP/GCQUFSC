@@ -28,7 +28,7 @@ function Artigos() {
         <div className="projetos-content">
          <h1 className="big-section-title">Artigos Publicados</h1>
              <p className="section-text">
-             Artigos Publicados LALALALLA
+             Os pesquisadores do Grupo de Computação Quântica (GCQ) da UFSC contribuem ativamente para a produção científica na área, publicando artigos em conferências e periódicos nacionais e internacionais. Os temas abordam desde fundamentos teóricos até aplicações práticas da computação quântica, refletindo a diversidade e a relevância dos estudos desenvolvidos no grupo. A produção acadêmica do GCQ é parte fundamental do nosso compromisso com o avanço do conhecimento científico e tecnológico.
              </p>
           <div className="projetos-container">
             {artigos.map((artigo, index) => (

@@ -2,7 +2,7 @@ import React from 'react';
 import "../App.css";
 import { sidebarData } from './sidebarData';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../logogcq.png'; // certifique-se do caminho correto
+import logo from '../GCQ_logo_branco.png';
 
 function Sidebar() {
   const location = useLocation();
