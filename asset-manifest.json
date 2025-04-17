@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/GCQUFSC/static/css/main.323c587f.css",
-    "main.js": "/GCQUFSC/static/js/main.06baa6ea.js",
+    "main.css": "/GCQUFSC/static/css/main.756674b0.css",
+    "main.js": "/GCQUFSC/static/js/main.4ff50c8c.js",
     "static/js/453.1904678a.chunk.js": "/GCQUFSC/static/js/453.1904678a.chunk.js",
-    "static/media/logogcq2.png": "/GCQUFSC/static/media/logogcq2.6686e7c0f8303da1c75c.png",
+    "static/media/GCQ_logo_branco.png": "/GCQUFSC/static/media/GCQ_logo_branco.5579f81d68b40fc4e82b.png",
     "static/media/MiguelEstivaletPinto.jpg": "/GCQUFSC/static/media/MiguelEstivaletPinto.646aecc8091d6a295eea.jpg",
+    "static/media/GCQ_logo_principal.png": "/GCQUFSC/static/media/GCQ_logo_principal.a48eb0a26b8c7feddf3c.png",
     "index.html": "/GCQUFSC/index.html",
-    "main.323c587f.css.map": "/GCQUFSC/static/css/main.323c587f.css.map",
-    "main.06baa6ea.js.map": "/GCQUFSC/static/js/main.06baa6ea.js.map",
+    "main.756674b0.css.map": "/GCQUFSC/static/css/main.756674b0.css.map",
+    "main.4ff50c8c.js.map": "/GCQUFSC/static/js/main.4ff50c8c.js.map",
     "453.1904678a.chunk.js.map": "/GCQUFSC/static/js/453.1904678a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.323c587f.css",
-    "static/js/main.06baa6ea.js"
+    "static/css/main.756674b0.css",
+    "static/js/main.4ff50c8c.js"
   ]
 }
