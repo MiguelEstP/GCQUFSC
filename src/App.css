@@ -130,11 +130,23 @@ body {
 .footer {
   margin-left: 250px;
   background-color: #E6E6E6;
-  color: #333;
-  text-align: center;
   padding: 20px 10px;
   font-size: 0.95rem;
   font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* espaço entre logo e texto */
+}
+
+.logo-ufsc {
+  width: 50px; /* tamanho do logo */
+  height: auto;
 }
 
 .projetos-wrapper {
@@ -311,4 +323,21 @@ body {
   color: #2A3E5D;
 }
 
+.subsection-title {
+  font-size: 2rem;
+  color: #264653;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  position: relative;
+}
+
+.subsection-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #264653;
+  margin: 0.5rem auto 0 auto;
+  border-radius: 2px;
+}
 

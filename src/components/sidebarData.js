@@ -10,8 +10,8 @@ export const sidebarData = [
     link: '/projetos'
     }, 
   {
-    title: 'Artigos',
-    link: '/artigos'
+    title: 'Publicações',
+    link: '/publicacoes'
   },
   {
     title: 'Pessoal',
