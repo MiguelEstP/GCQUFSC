@@ -1,23 +1,29 @@
 {
   "files": {
     "main.css": "/GCQUFSC/static/css/main.107c5581.css",
-    "main.js": "/GCQUFSC/static/js/main.747ae4fe.js",
+    "main.js": "/GCQUFSC/static/js/main.cd3d8958.js",
     "static/js/453.1904678a.chunk.js": "/GCQUFSC/static/js/453.1904678a.chunk.js",
+    "static/media/IMG_20240126_141037 - Cesar Amaral.jpg": "/GCQUFSC/static/media/IMG_20240126_141037 - Cesar Amaral.e7853d6b665a7f4647ee.jpg",
+    "static/media/20250507_083513 - Ruan.jpg": "/GCQUFSC/static/media/20250507_083513 - Ruan.d70b7bec9c11c9bcc30e.jpg",
+    "static/media/20240715_163007~3 - Evandro Chagas Ribeiro da Rosa.png": "/GCQUFSC/static/media/20240715_163007~3 - Evandro Chagas Ribeiro da Rosa.fa6120bc5a1184707372.png",
     "static/media/1746549889466 - Otto Menegasso Pires.jpg": "/GCQUFSC/static/media/1746549889466 - Otto Menegasso Pires.4965d377f667fca68798.jpg",
+    "static/media/Pedro Castelluci.jpg": "/GCQUFSC/static/media/Pedro Castelluci.4d8b4f32e3628d7b4cc4.jpg",
     "static/media/IMG_4600 - Vladimir Pestov.jpeg": "/GCQUFSC/static/media/IMG_4600 - Vladimir Pestov.3228e952486b6d5c1296.jpeg",
+    "static/media/IMG_5531 - Jerusa Marchi.jpeg": "/GCQUFSC/static/media/IMG_5531 - Jerusa Marchi.d3fc73598c0b8f976551.jpeg",
     "static/media/fotopero - Leticia Bertuzzi.jpeg": "/GCQUFSC/static/media/fotopero - Leticia Bertuzzi.37af38f71c968a8e28e5.jpeg",
     "static/media/logo-ufsc.png": "/GCQUFSC/static/media/logo-ufsc.6174694ebf18fb720e70.png",
+    "static/media/servletrecuperafoto - Eduardo Lussi.gif": "/GCQUFSC/static/media/servletrecuperafoto - Eduardo Lussi.c93c6b1a8b7a407f4db9.gif",
     "static/media/eloise4at5 - Gabriel Turatti.jpg": "/GCQUFSC/static/media/eloise4at5 - Gabriel Turatti.c409b20e47579f3ec476.jpg",
     "static/media/GCQ_logo_branco.png": "/GCQUFSC/static/media/GCQ_logo_branco.5579f81d68b40fc4e82b.png",
     "static/media/MiguelEstivaletPinto.jpg": "/GCQUFSC/static/media/MiguelEstivaletPinto.646aecc8091d6a295eea.jpg",
     "static/media/GCQ_logo_principal.png": "/GCQUFSC/static/media/GCQ_logo_principal.a48eb0a26b8c7feddf3c.png",
     "index.html": "/GCQUFSC/index.html",
     "main.107c5581.css.map": "/GCQUFSC/static/css/main.107c5581.css.map",
-    "main.747ae4fe.js.map": "/GCQUFSC/static/js/main.747ae4fe.js.map",
+    "main.cd3d8958.js.map": "/GCQUFSC/static/js/main.cd3d8958.js.map",
     "453.1904678a.chunk.js.map": "/GCQUFSC/static/js/453.1904678a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.107c5581.css",
-    "static/js/main.747ae4fe.js"
+    "static/js/main.cd3d8958.js"
   ]
 }
