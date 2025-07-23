@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import logo2 from '../GCQ_logo_principal.png';
+import NewsCarousel from '../components/NewsCarousel'; // ✅ correto
 
 function Home() {
   return (
@@ -20,6 +21,11 @@ function Home() {
           <h2 className="section-title">O QUE É O GCQ?</h2>
           <p className="section-text">
           O Grupo de Computação Quântica (GCQ) da Universidade Federal de Santa Catarina (UFSC) é um centro de pesquisa dedicado à exploração e desenvolvimento de tecnologias quânticas, com ênfase em algoritmos quânticos, simulações, criptografia e otimização. Combinando teoria e prática, o grupo busca avanços significativos nos estudos em computação quântica e suas aplicações em áreas como segurança da informação, inteligência artificial e ciências materiais. Além da pesquisa acadêmica, o GCQ também se dedica à formação e disseminação de conhecimento, promovendo cursos e eventos para engajar tanto a comunidade acadêmica no crescente campo da computação quântica.          </p>
+        </section>
+
+        <section className="home-section">
+          <h2 className="section-title">NOTÍCIAS</h2>
+           <NewsCarousel />
         </section>
 
         <section className="home-section">

@@ -8,7 +8,7 @@ function Contatos() {
       <div className="home-content contato-grid">
         <div className="contato-info">
           <h1 className="home-title">Entre em Contato</h1>
-          <p><strong>Email:</strong> Em ail@contato.ufsc.br</p>
+          <p><strong>Email:</strong> jerusa.marchi@ufsc.br</p>
           <p><strong>Localização:</strong> Departamento de Informática e Estatística (INE) - Universidade Federal de Santa Catarina</p>
           <div className="contato-redes">
             <a href="https://www.linkedin.com/company/gcq-ufsc/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
@@ -16,9 +16,6 @@ function Contatos() {
             </a>
             <a href="https://www.instagram.com/gcq_ufsc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
-            </a>
-            <a href="https://eelslap.com" target="_blank" rel="noopener noreferrer">
-                <FaGithub />
             </a>
            </div>
         </div>

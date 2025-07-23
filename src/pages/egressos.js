@@ -1,25 +1,13 @@
 import React from 'react';
 import '../App.css';
+import OttoMenegassoPires from '../FotosEgressos/1746549889466 - Otto Menegasso Pires.jpg';
 
 const ex_membros = [
   {
-    nome: "AAAAA",
-    funcao: "Doutoranda",
-    curso: "ASDADSASD",
-    foto: "https://via.placeholder.com/150"
+    nome: "Otto Menegasso Pires",
+    curso: "Ciêncas da Computação",
+    foto: OttoMenegassoPires 
   },
-  {
-    nome: "ASDASDASD",
-    funcao: "Professor",
-    curso: "Departamento de Informática e Estatística",
-    foto: "https://via.placeholder.com/150"
-  },
-  {
-    nome: "ADSDASDASD",
-    funcao: "Mestranda",
-    curso: "ASDASDASD",
-    foto: "https://via.placeholder.com/150"
-  }
 ];
 
 function Egressos() {
@@ -33,7 +21,6 @@ function Egressos() {
             <div key={index} className="membro-card">
               <img src={membro.foto} alt={membro.nome} className="membro-foto" />
               <h3>{membro.nome}</h3>
-              <p><strong>{membro.funcao}</strong></p>
               <p>{membro.curso}</p>
             </div>
           ))}
