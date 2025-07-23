@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GCQUFSC/static/css/main.107c5581.css",
-    "main.js": "/GCQUFSC/static/js/main.cd3d8958.js",
+    "main.css": "/GCQUFSC/static/css/main.1b7ac0d8.css",
+    "main.js": "/GCQUFSC/static/js/main.b28749dd.js",
     "static/js/453.1904678a.chunk.js": "/GCQUFSC/static/js/453.1904678a.chunk.js",
     "static/media/IMG_20240126_141037 - Cesar Amaral.jpg": "/GCQUFSC/static/media/IMG_20240126_141037 - Cesar Amaral.e7853d6b665a7f4647ee.jpg",
     "static/media/20250507_083513 - Ruan.jpg": "/GCQUFSC/static/media/20250507_083513 - Ruan.d70b7bec9c11c9bcc30e.jpg",
@@ -10,6 +10,7 @@
     "static/media/Pedro Castelluci.jpg": "/GCQUFSC/static/media/Pedro Castelluci.4d8b4f32e3628d7b4cc4.jpg",
     "static/media/IMG_4600 - Vladimir Pestov.jpeg": "/GCQUFSC/static/media/IMG_4600 - Vladimir Pestov.3228e952486b6d5c1296.jpeg",
     "static/media/IMG_5531 - Jerusa Marchi.jpeg": "/GCQUFSC/static/media/IMG_5531 - Jerusa Marchi.d3fc73598c0b8f976551.jpeg",
+    "static/media/premiodeinovação.jpg": "/GCQUFSC/static/media/premiodeinovação.912d5f1b175936f0e432.jpg",
     "static/media/fotopero - Leticia Bertuzzi.jpeg": "/GCQUFSC/static/media/fotopero - Leticia Bertuzzi.37af38f71c968a8e28e5.jpeg",
     "static/media/logo-ufsc.png": "/GCQUFSC/static/media/logo-ufsc.6174694ebf18fb720e70.png",
     "static/media/servletrecuperafoto - Eduardo Lussi.gif": "/GCQUFSC/static/media/servletrecuperafoto - Eduardo Lussi.c93c6b1a8b7a407f4db9.gif",
@@ -18,12 +19,12 @@
     "static/media/MiguelEstivaletPinto.jpg": "/GCQUFSC/static/media/MiguelEstivaletPinto.646aecc8091d6a295eea.jpg",
     "static/media/GCQ_logo_principal.png": "/GCQUFSC/static/media/GCQ_logo_principal.a48eb0a26b8c7feddf3c.png",
     "index.html": "/GCQUFSC/index.html",
-    "main.107c5581.css.map": "/GCQUFSC/static/css/main.107c5581.css.map",
-    "main.cd3d8958.js.map": "/GCQUFSC/static/js/main.cd3d8958.js.map",
+    "main.1b7ac0d8.css.map": "/GCQUFSC/static/css/main.1b7ac0d8.css.map",
+    "main.b28749dd.js.map": "/GCQUFSC/static/js/main.b28749dd.js.map",
     "453.1904678a.chunk.js.map": "/GCQUFSC/static/js/453.1904678a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.107c5581.css",
-    "static/js/main.cd3d8958.js"
+    "static/css/main.1b7ac0d8.css",
+    "static/js/main.b28749dd.js"
   ]
 }
