@@ -9,7 +9,8 @@ function Contatos() {
         <div className="contato-info">
           <h1 className="home-title">Entre em Contato</h1>
           <p><strong>Email:</strong> jerusa.marchi@ufsc.br</p>
-          <p><strong>Localização:</strong> Departamento de Informática e Estatística (INE) - Universidade Federal de Santa Catarina</p>
+          <p><strong>Localização:</strong> Laboratório de Simulação e Computação Quântica - CFM / Universidade Federal de Santa Catarina</p>
+          <p><strong>Localização:</strong> Laboratório de Inteligência Artificial e Algorítmo (LIAA) - INE / Universidade Federal de Santa Catarina</p>
           <div className="contato-redes">
             <a href="https://www.linkedin.com/company/gcq-ufsc/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />

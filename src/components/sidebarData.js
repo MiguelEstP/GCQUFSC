@@ -3,11 +3,15 @@ import React from 'react';
 export const sidebarData = [
     {
     title: 'Home',
-    link: '/GCQUFSC/'
+    link: ''
     }, 
     {
     title: 'Projetos',
     link: '/projetos'
+    }, 
+    {
+    title: 'Notícias',
+    link: '/noticias'
     }, 
   {
     title: 'Publicações',
@@ -24,5 +28,5 @@ export const sidebarData = [
   {
     title: 'Contatos',
     link: '/contatos'
-  }
+  },
 ];

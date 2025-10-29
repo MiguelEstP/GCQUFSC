@@ -3,10 +3,11 @@ import Contatos from './pages/contatos';
 import Egressos from './pages/egressos';
 import Pessoal from './pages/pessoal';
 import Publicacoes from './pages/publicacoes';
-import Projetos from './pages/projetos'; 
+import Projetos from './pages/projetos';
 import Home from './pages/home';
-import Footer from './components/footer'
+import Footer from './components/footer';
 import Sidebar from './components/sidebar';
+import Noticias from './pages/noticias';
 import './App.css';
 
 function App() {
@@ -14,24 +15,23 @@ function App() {
     <Router>
       <div className="App">
         <Sidebar />
-        <Routes>
-          <Route path="/GCQUFSC/" element={<Home />} />
-          <Route path="/projetos" element={<Projetos />} />
-          <Route path="/publicacoes" element={<Publicacoes />} />
-          <Route path="/pessoal" element={<Pessoal />} />
-          <Route path="/egressos" element={<Egressos />} />
-          <Route path="/contatos" element={<Contatos />} />
-        </Routes>
-        <>
-  <Sidebar />
-  <Routes>
-  </Routes>
-  <Footer />
-</>
+
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projetos" element={<Projetos />} />
+            <Route path="/publicacoes" element={<Publicacoes />} />
+            <Route path="/pessoal" element={<Pessoal />} />
+            <Route path="/egressos" element={<Egressos />} />
+            <Route path="/contatos" element={<Contatos />} />
+            <Route path="/noticias" element={<Noticias />} />
+          </Routes>
+        </main>
+
+        <Footer />
       </div>
     </Router>
   );
 }
-
 
 export default App;

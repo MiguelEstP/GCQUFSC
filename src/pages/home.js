@@ -1,36 +1,68 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
 import logo2 from '../GCQ_logo_principal.png';
-import NewsCarousel from '../components/NewsCarousel'; // ✅ correto
+import NewsCarousel from '../components/NewsCarousel';
 
 function Home() {
+  useEffect(() => {
+    const animateElements = () => {
+      const elements = document.querySelectorAll('.scale-in');
+      elements.forEach(el => {
+        el.style.opacity = '1';
+        el.style.transform = 'scale(1)';
+      });
+    };
+
+    setTimeout(animateElements, 100);
+  }, []);
+
   return (
     <div className="home-wrapper">
       <div className="home-content">
-        <img src={logo2} alt="Logo GCQ" className="home-logo" />
+        {/* Elementos com animação simultânea */}
+        <img 
+          src={logo2} 
+          alt="Logo GCQ" 
+          className="home-logo scale-in" 
+          style={{ opacity: 0, transform: 'scale(0.8)' }}
+        />
 
-        <h1 className="home-title">GRUPO DE COMPUTAÇÃO QUÂNTICA</h1>
-        <p className="home-extra-subtitle">
-            ⟨G|C|Q⟩
+        <h1 
+          className="home-title scale-in" 
+          style={{ opacity: 0, transform: 'scale(0.8)' }}
+        >
+          GRUPO DE COMPUTAÇÃO QUÂNTICA
+        </h1>
+        <p 
+          className="home-extra-subtitle scale-in" 
+          style={{ opacity: 0, transform: 'scale(0.8)' }}
+        >
+          ⟨G|C|Q⟩
         </p>
-        <p className="home-subtitle">
+        <p 
+          className="home-subtitle scale-in" 
+          style={{ opacity: 0, transform: 'scale(0.8)' }}
+        >
           Pesquisa e desenvolvimento em computação quântica na Universidade Federal de Santa Catarina.
         </p>
 
+        {/* Seções sem animação */}
         <section className="home-section">
           <h2 className="section-title">O QUE É O GCQ?</h2>
           <p className="section-text">
-          O Grupo de Computação Quântica (GCQ) da Universidade Federal de Santa Catarina (UFSC) é um centro de pesquisa dedicado à exploração e desenvolvimento de tecnologias quânticas, com ênfase em algoritmos quânticos, simulações, criptografia e otimização. Combinando teoria e prática, o grupo busca avanços significativos nos estudos em computação quântica e suas aplicações em áreas como segurança da informação, inteligência artificial e ciências materiais. Além da pesquisa acadêmica, o GCQ também se dedica à formação e disseminação de conhecimento, promovendo cursos e eventos para engajar tanto a comunidade acadêmica no crescente campo da computação quântica.          </p>
+            O Grupo de Computação Quântica (GCQ) da Universidade Federal de Santa Catarina (UFSC) é um grupo interdisciplinar dedicado à exploração e desenvolvimento de tecnologias quânticas, com ênfase em algoritmos quânticos, simulações, criptografia e otimização. Combinando teoria e prática, o grupo busca avanços significativos nos estudos em computação quântica e suas aplicações em áreas como segurança da informação, inteligência artificial e ciências materiais. Além da pesquisa acadêmica, o GCQ também se dedica à formação e disseminação de conhecimento, promovendo cursos e eventos para engajar tanto a comunidade acadêmica no crescente campo da computação quântica.
+          </p>
         </section>
 
         <section className="home-section">
           <h2 className="section-title">NOTÍCIAS</h2>
-           <NewsCarousel />
+          <NewsCarousel />
         </section>
 
         <section className="home-section">
           <h2 className="section-title">ONDE ESTAMOS?</h2>
-          <p className="section-text">Departamento de Física - CFM / Universidade Federal de Santa Catarina</p>
+          <p className="section-text"> - Laboratório de Simulação e Computação Quântica - CFM / Universidade Federal de Santa Catarina</p>
+          <p className="section-text"> - Laboratório de Inteligência Artificial e Algorítmo (LIAA) - INE / Universidade Federal de Santa Catarina</p>
           <div className="map-container">
             <iframe
               title="Localização GCQ"
